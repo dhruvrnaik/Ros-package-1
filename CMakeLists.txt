@@ -141,6 +141,8 @@ include_directories(
 add_executable(pub1 src/pub1.cpp)
 target_link_libraries (pub1 ${catkin_LIBRARIES})
 
+add_executable(swap src/swap.cpp)
+target_link_libraries (swap ${catkin_LIBRARIES})
 
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
